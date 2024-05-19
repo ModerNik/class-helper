@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--header-background: #08273f;
+	--sidebar-background-color: #fefefe;
+	--sidebar-text-color: #0d2343cc;
+	--sidebar-hover-color: #5e8bff;
+	--input-color: #d5daea;
+	--input-border: 2px solid var(--input-color);
+	--input-placeholder-color: #0d2343b3;
+	--checkbox-border: 2px solid #0d234380;
+	--input-text-color: #0d2343b2;
+}
+
+@layer base {
+  body {
+    @apply text-text bg-white justify-center flex
+  }
+
+  section {
+    @apply max-w-screen-xl w-full px-[45px]
+  }
+
+  input {
+    @apply px-[12px] h-[40px] border-[2px] rounded-[6px] border-gray outline-none text-text/70 focus:text-text
+  }
+
+}
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    @apply w-[6px] h-[6px]
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    @apply bg-white/50 h-[6px]
+  }
+  ::-webkit-scrollbar-track:horizontal {
+    @apply hidden
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 100vh;
+    @apply bg-white
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent
+  }
+}

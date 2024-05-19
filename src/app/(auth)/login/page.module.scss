@@ -1,0 +1,67 @@
+.SignIn {
+	--btn-text-size: 16px;
+	--btn-main-color: #5e8bff;
+	--btn-default-height: 36px;
+	--btn-default-width: 100%;
+	--btn-default-text-color: #fefefe;
+	--btn-default-hover-background-color: #547de5;
+	--btn-default-active-background-color: #547de5d5;
+	--btn-min-width: 100%;
+	--btn-border-radius: 6px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0 25px;
+
+	.content-wrapper {
+		padding: 50px;
+		border: 3px solid #0d234360;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 400px;
+		width: 100%;
+
+		.title {
+			font-weight: 600;
+			font-size: 32px;
+			margin-bottom: 50px;
+			color: #0d2343;
+		}
+
+		.inputs {
+			display: flex;
+			flex-direction: column;
+			gap: 25px;
+			width: 100%;
+		}
+
+		.additional {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			margin: 12px 0 25px 0;
+			gap: 16px;
+			font-weight: 500;
+
+			.forgot-password {
+				align-self: flex-end;
+				color: #5e8bff;
+			}
+
+			.show-password {
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				width: fit-content;
+				gap: 6px;
+				cursor: pointer;
+				color: #0d2343b3;
+			}
+		}
+	}
+}
