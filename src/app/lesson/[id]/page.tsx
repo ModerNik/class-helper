@@ -2,11 +2,10 @@
 
 import Header from "@/components/layout/Header";
 import ProtectedRoute from "@/components/layout/ProtectedRoute";
-import { Student } from "@/models/user";
+import { Student } from '@/models/user';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/Select";
 import { useState } from "react";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 
 const groupStudents: Student[] = [
@@ -52,6 +51,20 @@ const groupStudents: Student[] = [
   },
 ]
 
+type studentLessonInfo = {
+  id: number;
+  name: string;
+  score: number;
+  comment: string;
+  presence: boolean;
+}
+
+type lessonInfo = {
+    groupName: string;
+    students: studentLessonInfo[]; 
+}
+
+type lessonDTO = studentLessonInfo[]
 
 export default function LessonPage({ params }: { params: { id: string } }) {
   const router = useRouter()
