@@ -11,7 +11,7 @@ import { useRouter } from "next/navigation";
 const student: Student = {
   id: 1,
   email: "email@gmail.com",
-  name: "Устимов Герасим",
+  name: "Иванов Иван",
   phoneNumber: "+7 (213)123-12-23",
   parentPhoneNumber: "+7 (213)123-12-23",
   class: "13Ж",

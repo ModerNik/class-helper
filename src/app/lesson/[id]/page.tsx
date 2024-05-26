@@ -12,7 +12,7 @@ const groupStudents: Student[] = [
   {
     id: 1,
     email: "email@gmail.com",
-    name: "Устимов Герасим",
+    name: "Иванов Иван",
     phoneNumber: "+7 (213)123-12-23",
     parentPhoneNumber: "+7 (213)123-12-23",
     class: "13Ж",
@@ -20,7 +20,7 @@ const groupStudents: Student[] = [
   {
     id: 2,
     email: "email@gmail.com",
-    name: "Устимов Герасим",
+    name: "Иванов Иван",
     phoneNumber: "+7 (213)123-12-23",
     parentPhoneNumber: "+7 (213)123-12-23",
     class: "13Ж",
@@ -28,7 +28,7 @@ const groupStudents: Student[] = [
   {
     id: 3,
     email: "email@gmail.com",
-    name: "Устимов Герасим",
+    name: "Иванов Иван",
     phoneNumber: "+7 (213)123-12-23",
     parentPhoneNumber: "+7 (213)123-12-23",
     class: "13Ж",
@@ -36,7 +36,7 @@ const groupStudents: Student[] = [
   {
     id: 4,
     email: "email@gmail.com",
-    name: "Устимов Герасим",
+    name: "Иванов Иван",
     phoneNumber: "+7 (213)123-12-23",
     parentPhoneNumber: "+7 (213)123-12-23",
     class: "13Ж",
@@ -44,7 +44,7 @@ const groupStudents: Student[] = [
   {
     id: 5,
     email: "email@gmail.com",
-    name: "Устимов Герасим",
+    name: "Иванов Иван",
     phoneNumber: "+7 (213)123-12-23",
     parentPhoneNumber: "+7 (213)123-12-23",
     class: "13Ж",

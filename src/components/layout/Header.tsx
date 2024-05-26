@@ -53,7 +53,7 @@ function Header() {
 				<div className='relative'>
 					<div className='cursor-pointer flex flex-row gap-[12px] items-center' onClick={() => setProfileOpened(!profileOpened)}>
 						<p className='text-[16px] font-medium'>
-							Имя пользователя
+							Детинкин Олег
 						</p>
 						<CircleUser className='size-[36px]' />
 						<ChevronDown className='w-[16px]' />
